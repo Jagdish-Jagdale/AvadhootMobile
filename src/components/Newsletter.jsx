@@ -13,7 +13,7 @@ const Newsletter = () => {
         >
           <h2 className="text-editorial text-4xl md:text-5xl text-bone mb-6 italic">The Inner Circle.</h2>
           <p className="text-gray-500 mb-12 max-w-lg mx-auto font-light text-lg tracking-wide">
-            Subscribe to receive private invitations to flagship unveilings and boutique collection early-accesss.
+            Subscribe to receive private invitations to flagship unveilings and boutique collection early-access.
           </p>
 
           <div className="flex flex-col md:flex-row items-center justify-center gap-4 max-w-xl mx-auto relative">
