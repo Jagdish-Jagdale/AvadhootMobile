@@ -60,7 +60,7 @@ const Services = () => {
     <section id="services" className="py-24 bg-white relative">
       <div className="container mx-auto px-6 lg:px-12">
 
-        {/* Header Areas */}
+        {/* Header Area */}
         <div className="flex flex-col md:flex-row justify-between items-end mb-16 gap-6 relative z-10">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
