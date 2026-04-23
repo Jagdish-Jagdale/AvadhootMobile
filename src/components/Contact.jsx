@@ -38,7 +38,7 @@ const Contact = () => {
             </form>
           </div>
 
-          {/* Contact Info Sides */}
+          {/* Contact Info Side */}
           <div className="flex-[0.6] bg-secondary text-white p-12 rounded-[2rem] flex flex-col justify-between relative overflow-hidden">
             <div className="absolute top-0 right-0 w-64 h-64 bg-primary/20 blur-[80px] rounded-full -translate-y-1/2 translate-x-1/2" />
             <div className="absolute bottom-0 left-0 w-64 h-64 bg-blue-500/20 blur-[80px] rounded-full translate-y-1/2 -translate-x-1/2" />
