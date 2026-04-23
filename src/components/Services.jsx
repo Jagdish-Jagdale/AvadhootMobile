@@ -59,10 +59,10 @@ const Services = () => {
   return (
     <section id="services" className="py-24 bg-white relative">
       <div className="container mx-auto px-6 lg:px-12">
-        
-        {/* Header Area */}
+
+        {/* Header Areas */}
         <div className="flex flex-col md:flex-row justify-between items-end mb-16 gap-6 relative z-10">
-          <motion.div 
+          <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: "-100px" }}
@@ -74,30 +74,30 @@ const Services = () => {
               <span className="text-xs font-black text-primary uppercase tracking-widest">Our Services</span>
             </div>
             <h2 className="text-4xl lg:text-5xl font-black text-secondary mb-6 tracking-tight leading-tight">
-              Complete Mobile <br/> Solutions under <span className="text-primary mt-2 inline-block">One Roof.</span>
+              Complete Mobile <br /> Solutions under <span className="text-primary mt-2 inline-block">One Roof.</span>
             </h2>
             <p className="text-gray-500 text-lg font-medium leading-relaxed">
-              From acquiring the latest flagship devices to professional servicing and protection, 
+              From acquiring the latest flagship devices to professional servicing and protection,
               we provide an end-to-end premium mobile experience.
             </p>
           </motion.div>
-          
-          <motion.a 
+
+          <motion.a
             initial={{ opacity: 0, x: 20 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.8, delay: 0.2 }}
-            href="#contact" 
+            href="#contact"
             className="group flex items-center gap-3 text-secondary font-bold hover:text-primary transition-all mb-2 relative overflow-hidden px-2 py-1"
           >
-            <span className="relative z-10 transition-transform group-hover:-translate-x-1">Get an Estimate</span> 
+            <span className="relative z-10 transition-transform group-hover:-translate-x-1">Get an Estimate</span>
             <ArrowRight size={20} className="relative z-10 transition-transform group-hover:translate-x-1" />
             <span className="absolute bottom-0 left-0 w-full h-[2px] bg-primary scale-x-0 origin-left transition-transform duration-300 group-hover:scale-x-100"></span>
           </motion.a>
         </div>
 
         {/* Services Grid */}
-        <motion.div 
+        <motion.div
           variants={containerVariants}
           initial="hidden"
           whileInView="visible"
@@ -113,9 +113,9 @@ const Services = () => {
               {/* Background Image Container */}
               <div className="absolute inset-0 w-full h-full">
                 <div className="absolute inset-0 bg-gradient-to-t from-secondary/90 via-secondary/40 to-black/20 z-10" />
-                <motion.img 
-                  src={service.image} 
-                  alt={service.title} 
+                <motion.img
+                  src={service.image}
+                  alt={service.title}
                   className="w-full h-full object-cover transition-transform duration-1000 ease-out group-hover:scale-110"
                 />
               </div>
