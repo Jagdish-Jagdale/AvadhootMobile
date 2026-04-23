@@ -48,7 +48,7 @@ const Hero = () => {
             className="text-gray-300 text-lg mb-12 max-w-2xl mx-auto leading-relaxed font-medium"
           >
             Experience the pinnacle of mobile technology with our curated
-            collection of premium smartphones and bespoke services tailoreds
+            collection of premium smartphones and bespoke services tailored
             for the modern professional.
           </motion.p>
 
