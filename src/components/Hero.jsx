@@ -3,15 +3,15 @@ import { motion } from "framer-motion";
 
 const Hero = () => {
   return (
-    <section 
-      id="home" 
+    <section
+      id="home"
       className="relative flex items-center justify-center min-h-screen pt-24 pb-20 overflow-hidden"
     >
       {/* Background Image with Black Overlay */}
       <div className="absolute inset-0 z-0">
-        <img 
+        <img
           /* Placeholder background image - replace with your uploaded image path */
-          src="https://images.unsplash.com/photo-1556656793-08538906a9f8?q=80&w=1800&auto=format&fit=crop" 
+          src="https://images.unsplash.com/photo-1556656793-08538906a9f8?q=80&w=1800&auto=format&fit=crop"
           alt="Store Background"
           className="w-full h-full object-cover object-center"
         />
@@ -29,7 +29,7 @@ const Hero = () => {
           >
             Welcome to Avadhoot Mobile
           </motion.div>
-          
+
           <motion.h1
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
@@ -40,18 +40,18 @@ const Hero = () => {
             <span className="text-primary">Connectivity</span> in <br className="hidden md:block" />
             Your Hands.
           </motion.h1>
-          
+
           <motion.p
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.2 }}
             className="text-gray-300 text-lg mb-12 max-w-2xl mx-auto leading-relaxed font-medium"
           >
-            Experience the pinnacle of mobile technology with our curated 
-            collection of premium smartphones and bespoke services tailored 
+            Experience the pinnacle of mobile technology with our curated
+            collection of premium smartphones and bespoke services tailoreds
             for the modern professional.
           </motion.p>
-          
+
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
